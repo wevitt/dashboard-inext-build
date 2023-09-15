@@ -1,0 +1,1 @@
+import{s,e as t,c,t as n}from"./index.js";const o={},r={class:"flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0"};function _(e,l){return t(),c("div",r,[n(e.$slots,"default")])}const f=s(o,[["render",_]]);export{f as _};

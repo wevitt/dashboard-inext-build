@@ -1,0 +1,80 @@
+{
+  "_CenteredContainer.js": {
+    "file": "assets/CenteredContainer.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_FormCard.js": {
+    "file": "assets/FormCard.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "index.css": {
+    "file": "assets/index.css",
+    "src": "index.css"
+  },
+  "index.html": {
+    "css": [
+      "assets/index.css"
+    ],
+    "dynamicImports": [
+      "src/pages/dashboard.vue",
+      "src/pages/auth/login.vue",
+      "src/pages/auth/resetpassword.vue",
+      "src/pages/auth/forgotpassword.vue",
+      "src/pages/auth/callback.vue"
+    ],
+    "file": "assets/index.js",
+    "isEntry": true,
+    "src": "index.html"
+  },
+  "src/pages/auth/callback.vue": {
+    "file": "assets/callback.js",
+    "imports": [
+      "index.html",
+      "_CenteredContainer.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/pages/auth/callback.vue"
+  },
+  "src/pages/auth/forgotpassword.vue": {
+    "file": "assets/forgotpassword.js",
+    "imports": [
+      "index.html",
+      "_CenteredContainer.js",
+      "_FormCard.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/pages/auth/forgotpassword.vue"
+  },
+  "src/pages/auth/login.vue": {
+    "file": "assets/login.js",
+    "imports": [
+      "index.html",
+      "_CenteredContainer.js",
+      "_FormCard.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/pages/auth/login.vue"
+  },
+  "src/pages/auth/resetpassword.vue": {
+    "file": "assets/resetpassword.js",
+    "imports": [
+      "index.html",
+      "_CenteredContainer.js",
+      "_FormCard.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/pages/auth/resetpassword.vue"
+  },
+  "src/pages/dashboard.vue": {
+    "file": "assets/dashboard.js",
+    "imports": [
+      "index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/pages/dashboard.vue"
+  }
+}
